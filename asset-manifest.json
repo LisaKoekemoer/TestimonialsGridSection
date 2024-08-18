@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/TestimonialsGridSection/static/css/main.804d03d4.css",
+    "main.js": "/TestimonialsGridSection/static/js/main.40b83f1e.js",
+    "static/js/453.011dee71.chunk.js": "/TestimonialsGridSection/static/js/453.011dee71.chunk.js",
+    "index.html": "/TestimonialsGridSection/index.html",
+    "static/media/bg-pattern-quotation.svg": "/TestimonialsGridSection/static/media/bg-pattern-quotation.6b460e30439432820da617334668e2b6.svg",
+    "main.804d03d4.css.map": "/TestimonialsGridSection/static/css/main.804d03d4.css.map",
+    "main.40b83f1e.js.map": "/TestimonialsGridSection/static/js/main.40b83f1e.js.map",
+    "453.011dee71.chunk.js.map": "/TestimonialsGridSection/static/js/453.011dee71.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.804d03d4.css",
+    "static/js/main.40b83f1e.js"
+  ]
+}
