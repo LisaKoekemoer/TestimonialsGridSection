@@ -1,38 +1,145 @@
-.App {
-  text-align: center;
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  background-color: #F2F2F2;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.item1 {
+  grid-area: daniel;
+}
+.item2 {
+  grid-area: jonathan;
+}
+.item3 {
+  grid-area: jeanette;
+}
+.item4 {
+  grid-area: patrick;
+}
+.item5 {
+  grid-area: kira;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.testimonial-grid {
+  width: 1110px;
+  height: 572px;
+  display: grid;
+  grid-template-areas: 
+  'daniel daniel jonathan kira'
+  'jeanette patrick patrick kira';
+  gap: 25px;
+  margin: auto;
+  margin-top: 80px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.bgPattern {
+  position: relative;
+  top: -74px;
+  left: 350px;
+}
+.avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.item1 .avatar {
+  border: 2px solid #A775F1;
+}
+
+.item4 .avatar {
+  border: 2px solid #733FC8;
+}
+
+
+
+.credentials {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.full-name {
+  font-size: 13px;
+  font-weight: 500;
+  color: #FFFFFF;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.graduate {
+  font-size: 11px;
+  font-weight: 500;
+  color: #FFFFFF;
+  margin-top: -12px;
+}
+
+.headline {
+  font-size: 20px;
+  font-weight: 600;
+  color: #FFFFFF;
+}
+
+.item1 .headline {
+  position: relative;
+  top: -110px;
+}
+
+.item1 .testimonial {
+  position: relative;
+  top: -110px;
+}
+
+.testimonial {
+  font-size: 13px;
+  font-weight: 500;
+  color: #CFCFCF;
+}
+
+.item3 .full-name,
+.item3 .graduate,
+.item3 .headline,
+.item3 .testimonial,
+.item5 .full-name,
+.item5 .graduate,
+.item5 .headline,
+.item5 .testimonial {
+  color: #48556A;
+}
+
+.item1 {
+  width: 480px;
+  height: 242px;
+  background-color: #733FC8;
+  padding: 20px 30px 20px 30px;
+  border-radius: 15px;
+}
+
+.item2 {
+    width: 195px;
+    height: 242px;
+    background-color: #48556A;
+    padding: 20px 30px 20px 30px;
+    border-radius: 15px;
+}
+
+.item3 {
+  width: 195px;
+  height: 226px;
+  background-color: #FFFFFF;
+  padding: 20px 30px 20px 30px;
+  border-radius: 15px;
+}
+
+.item4 {
+  width: 480px;
+  height: 226px;
+  background-color: #19202D;
+  padding: 20px 30px 20px 30px;
+  border-radius: 15px;
+}
+
+.item5 {
+  width: 195px;
+  height: 532px;
+  background-color: #FFFFFF;
+  padding: 20px 30px 20px 30px;
+  border-radius: 15px;
 }
